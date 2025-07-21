@@ -10,4 +10,14 @@ export interface CardProps {
   description: string;
   image: string;
   children?: React.ReactNode;
+}
+
+export interface PropertyProps {
+  title: string;
+  description: string;
+  image: string;
+  price?: string;
+  location?: string;
+  rating?: number;
+  // Add more fields as needed for your property listings
 } 
